@@ -1,0 +1,10 @@
+plot 작성 하기
+
+matplotlib.pyplot의 plot함수는 이렇게 생겼다
+
+plt.plot(정의역,치역,색깔)
+
+치역에 y=ax+b 꼴의 식을 적으면 된다.
+근데 조심할 것은 a가 행렬이어야 한다는 점이다.
+(x는 정의역에 넣은 걸 넣으면 된다.)
+ex)plt.plot(range(10,46),model.coef_*range(10,46)+model.intercept_,'red')
